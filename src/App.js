@@ -6,15 +6,15 @@ import Main from './components/Main/Main';
 import Footer from './components/Footer/Footer';
 import './components/travel.css';
 
+
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       {/* <Travel /> */}
       <Navbar />
       <Home />
       <Main />
       <Footer />
-
     </div>
   );
 }
